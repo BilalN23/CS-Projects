@@ -10,6 +10,7 @@
 
 Nmap scan results for each machine reveal the below services and OS details:
 
+
 ![nmap target1](Images1/nmap target1.png)
 
 This scan identifies the services below as potential points of entry:
@@ -62,5 +63,10 @@ The Red Team was able to penetrate `Target 1` retrieve the following confidentia
     - **Exploit Used**
       - Same exploit as Flag 3
       - The third and fourth flag were found together in the mysql database. Note: Another way to obtain flag 4 is to get Steven's password hash from the wp_users table in the database. Using JohnTheRipper, john/root/Desktop/hashes.txt --wordlist=rockyou.txt, gave pink84 as Steven's password. From there an SSH connection could be made: ssh steven@192.168.1.110. To escalate to root after seeing Steven has python sudo access using sudo -l, the following command gave root access: sudo ./python -c 'import os;os.system("/bin/bash")'
+<<<<<<< HEAD
 ![steven pass](Images1/steven pass.png)
 ![flag4](Images1/flag4.png)
+=======
+![steven pass](Images/steven pass.png)
+![flag4](Images/flag4.png)
+>>>>>>> b49f73c95c857f09f6ad637b32af28773a3fff00
