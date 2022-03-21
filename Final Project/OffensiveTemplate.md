@@ -44,6 +44,7 @@ The Red Team was able to penetrate `Target 1` retrieve the following confidentia
 ![users](Images1/users.PNG)
 
 ![ssh](Images1/ssh.PNG)
+      
       - The flag was found using: grep -R flag1
 ![flag1](Images1/flag1.PNG)
 
