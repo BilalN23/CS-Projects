@@ -58,7 +58,7 @@ The Red Team was able to penetrate `Target 1` retrieve the following confidentia
     - **Exploit Used**
       - Accessing mysql database using the wp-config.php file
       - The wp-config.php contained the login credentials for the mysql Wordpress database. Commands used: mysql -u root -pR@v3nSecurity wordpress, show tables;, select * from wp_posts;
-![flag 3 n 4](Images1/flag 3 n 4.PNG)
+![34](Images1/34.PNG)
 
   - `flag4.txt`: {715dea6c055b9fe3337544932f2941ce}
     - **Exploit Used**
