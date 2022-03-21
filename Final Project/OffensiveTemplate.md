@@ -25,10 +25,10 @@ The following vulnerabilities were identified on each target (with severity leve
 
 Target 1
 - User Enumeration (Wordpress) - Medium
-- Weak Password Implementation - Critical
+- Weak Password Implementation - Critical - CWE 521
 - No file security permission implemented - High
 - Use of weak password salted hashes - High
-- Python root escalation privileges - Critical
+- Python root escalation privileges - Critical - CWE 269
 - Directory traversal - High
 
 
