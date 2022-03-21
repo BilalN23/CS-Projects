@@ -60,3 +60,7 @@ Alert 3 is implemented as follows:
   - **Threshold**: above 0.5 for the last 5 minutes
   - **Vulnerability Mitigated**: malware, malicious software
   - **Reliability**: This alert is also a medium-rated reliability. Although it can correctly depict suspicious activity that is resourse-intensive, it can provide false negatives if malicious scripts use lower CPU resources.
+
+The alerts detecting WPscan and nmap scans:
+![alerts](Images1/alerts.PNG)
+![firing](Images1/firing.PNG)
